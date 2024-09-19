@@ -1,0 +1,11 @@
+# Use the official Node.js Alpine image.
+FROM node:18-alpine
+
+# Create and set the working directory.
+WORKDIR /app
+
+# Copy the application code.
+COPY app2.js .
+
+# Command to run the application.
+CMD ["node", "app2.js"]
