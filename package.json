@@ -1,0 +1,23 @@
+{
+  "name": "DoseOfDocker-",
+  "version": "1.0.0",
+  "description": "This repository demonstrates building and running Docker containers for simple Node.js applications using the Node.js Alpine image.",
+  "main": "app1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DzejlanRedzepefendic/DoseOfDocker-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DzejlanRedzepefendic/DoseOfDocker-/issues"
+  },
+  "homepage": "https://github.com/DzejlanRedzepefendic/DoseOfDocker-#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

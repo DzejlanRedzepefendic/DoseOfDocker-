@@ -1,0 +1,30 @@
+services:
+  app1:
+    build:
+      context: .
+      dockerfile: Dockerfile.node1
+    container_name: node_app1
+    ports:
+      - "3001:3000"
+    stdin_open: true
+    tty: true
+
+  app2:
+    build:
+      context: .
+      dockerfile: Dockerfile.node2
+    container_name: node_app2
+    ports:
+      - "3002:3000"
+    stdin_open: true
+    tty: true
+
+  app3:
+    build:
+      context: .
+      dockerfile: Dockerfile.node3
+    container_name: node_app3
+    ports:
+      - "3003:3000"
+    stdin_open: true
+    tty: true
